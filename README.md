@@ -31,19 +31,19 @@
    
  <tr>
   <td>
-   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/0459b59c-847c-40b5-ad01-3d1611dc76c8" width="auto" height="320">
+   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/0459b59c-847c-40b5-ad01-3d1611dc76c8" width="164" height="320">
   </td>
   <td>
-   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/6b5031f9-6f32-411e-bd2b-612733326517" width="auto" height="320">
+   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/6b5031f9-6f32-411e-bd2b-612733326517" width="164" height="320">
   </td>
   <td>
-   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/6ab0ccfa-9ea8-40a8-874f-1e2fc2bda496" width="auto" height="320">
+   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/6ab0ccfa-9ea8-40a8-874f-1e2fc2bda496" width="164" height="320">
   </td>
   <td>
-   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/127acfc6-a8e2-4f15-8b03-276d22b761e8" width="auto" height="320">
+   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/127acfc6-a8e2-4f15-8b03-276d22b761e8" width="164" height="320">
   </td>
   <td>
-   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/a386de8e-9930-4b0a-8fc7-8d8ec6357103" width="auto" height="320">
+   <img src="https://github.com/kennethJeong/omni.k/assets/41365432/a386de8e-9930-4b0a-8fc7-8d8ec6357103" width="164" height="320">
   </td>
  </tr>
 </table>
