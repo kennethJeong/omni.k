@@ -1,13 +1,35 @@
 # Omni-Platform for K-Culture
 
-## Korean Wave Information App for Vietnamese </br>
-## Are you interested in Korea? Then experience K-Culture through our app!
+<dl>
+ <dd>
+   <b>Korean Wave Information App for Vietnamese. </b>
+ </dd>
+ <dd>
+  <b>
+   Are you interested in Korea? Then experience K-Culture through our app !
+  </b>
+ </dd>
+</dl>
 
-## Features and services </br>
- ∙ You can see the contents that are popular in Korea at a glance through the SNS platform that you use in your daily life! </br>
- ∙ Let's do some popular psychological tests in Korea and post them on your SNS! </br>
- ∙ Also, It provides information on basic Korean words and allows you to learn curious words or sentences quickly through a real-time translator. </br>
- ∙ It is also equipped with Chat GPT, which is popular these days. Feel free to ask questions about Korea! </br>
+<hr />
+
+## Features and services
+<ul>
+ <li>
+  You can see the contents that are popular in Korea at a glance through the SNS platform that you use in your daily life!
+ </li>
+  <li>
+  Let's do some popular psychological tests in Korea and post them on your SNS!
+ </li>
+  <li>
+  Also, It provides information on basic Korean words and allows you to learn curious words or sentences quickly through a real-time translator.
+ </li>
+  <li>
+  It is also equipped with Chat GPT, which is popular these days. Feel free to ask questions about Korea!
+ </li>
+</ul>
+
+<hr />
 
 ## Screenshots
 <table style='width: 100%;'>
@@ -47,3 +69,32 @@
   </td>
  </tr>
 </table>
+
+<hr />
+
+## Used Packages
+<ul>
+ <li>flutter_config: ^2.0.0</li>
+ <li>path_provider: ^2.0.15</li>
+ <li>hooks_riverpod: ^2.3.6</li>
+ <li>http: ^1.1.0</li>
+ <li>html: ^0.15.4</li>
+ <li>http_parser: ^4.0.2</li>
+ <li>font_awesome_flutter: ^10.4.0</li>
+ <li>flutter_chat_bubble: ^2.0.2</li>
+ <li>animated_bottom_navigation_bar: ^1.2.0</li>
+ <li>auto_size_text: ^3.0.0</li>
+ <li>excel: ^2.1.0</li>
+ <li>text_to_speech: ^0.2.3</li>
+ <li>webview_flutter: ^4.2.2</li>
+ <li>flutter_inappwebview: ^5.7.2+3</li>
+ <li>smooth_page_indicator: ^1.1.0</li>
+ <li>url_launcher: ^6.1.11</li>
+ <li>carousel_slider: ^4.2.1</li>
+ <li>pull_to_refresh: ^2.0.0</li>
+ <li>flutter_keyboard_visibility: ^5.4.1</li>
+ <li>google_mobile_ads: ^0.13.4</li>
+ <li>flutter_email_sender: ^6.0.1</li>
+ <li>mailer: ^6.0.1</li>
+</ul>
+
