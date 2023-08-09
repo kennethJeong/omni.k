@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:omni_k/admob.dart';
-import 'package:omni_k/models/state_provider.dart';
 import 'package:omni_k/screens/gpt/answer.dart';
 import 'package:omni_k/screens/gpt/question.dart';
 

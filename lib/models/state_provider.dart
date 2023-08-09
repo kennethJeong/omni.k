@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-// init.dart
+// omni_k.dart
 final contentsLimitNewsRoom = StateProvider<Map<String, int>>((ref) => {});
 final contentsValue_tiktok = StateProvider<int>((ref) => 2);
 final contentsValue_netflix = StateProvider<int>((ref) => 2);
@@ -48,6 +48,3 @@ final bottomNavIndex = StateProvider<int>((ref) => 0);
 
 // main.dart
 final heightAppBar = StateProvider<double>((ref) => kToolbarHeight);
-
-// admob.dart
-final isAdBannerLoad = StateProvider<bool>((ref) => false);

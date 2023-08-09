@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:omni_k/admob_helper.dart';
-import 'package:omni_k/models/state_provider.dart';
 
 class Admob {
   void adLoadInterstitial() {

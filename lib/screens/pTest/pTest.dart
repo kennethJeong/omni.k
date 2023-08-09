@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:omni_k/models/state_provider.dart';
+import 'package:omni_k/app_theme.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:omni_k/models/state_provider.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:omni_k/app_theme.dart';
 
 class PTest extends HookConsumerWidget {
   PTest({super.key, required this.heightPTest});
@@ -127,7 +127,7 @@ class PTest extends HookConsumerWidget {
                                 ref.read(check_scroll_webview.notifier).state = true;
                               }
                             },
-                            gestureRecognizers: Set()..add(
+                            gestureRecognizers: {}..add(
                               Factory<VerticalDragGestureRecognizer>(
                                 () => VerticalDragGestureRecognizer()
                               ),

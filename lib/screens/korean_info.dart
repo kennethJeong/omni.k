@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:omni_k/admob.dart';
-import 'package:omni_k/models/state_provider.dart';
 import 'package:omni_k/screens/krInfo/translation.dart';
 import 'package:omni_k/screens/krInfo/voca.dart';
 

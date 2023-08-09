@@ -1,4 +1,4 @@
-// ignore_for_file: must_be_immutable, non_constant_identifier_names
+// ignore_for_file: must_be_immutable, non_constant_identifier_names, constant_identifier_names
 import 'dart:convert';
 import 'dart:io';
 import 'package:auto_size_text/auto_size_text.dart';

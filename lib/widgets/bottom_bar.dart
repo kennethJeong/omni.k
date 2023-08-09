@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:omni_k/app_theme.dart';
 import 'package:omni_k/bottom_iconData.dart';
 import 'package:omni_k/models/state_provider.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 
 class BottomBar extends HookConsumerWidget {
   BottomBar({super.key});

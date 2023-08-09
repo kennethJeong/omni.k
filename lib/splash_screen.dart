@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:omni_k/config.dart';
-import 'package:omni_k/main.dart';
+import 'package:omni_k/omni_k.dart';
 import 'package:omni_k/models/state_provider.dart';
 
 class SplashScreen extends HookConsumerWidget {

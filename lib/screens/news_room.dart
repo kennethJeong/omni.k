@@ -7,11 +7,10 @@ import 'package:omni_k/app_theme.dart';
 import 'package:omni_k/models/classes.dart';
 import 'package:omni_k/models/state_notifier.dart';
 import 'package:omni_k/models/state_provider.dart';
-// Packages
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:omni_k/utils/errorResponse.dart';
 import 'package:omni_k/widgets/news_room.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+// Packages
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 // Api
 import 'package:omni_k/apis/netflix/httpParse.dart';
 import 'package:omni_k/apis/tiktok/httpParse.dart';

@@ -1,15 +1,14 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:flutter/services.dart' show ByteData, rootBundle;
 import 'package:omni_k/admob.dart';
 import 'package:omni_k/apis/papago/httpParse.dart';
 import 'package:omni_k/app_theme.dart';
+import 'package:omni_k/models/state_provider.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:excel/excel.dart';
-import 'package:flutter/services.dart' show ByteData, rootBundle;
-import 'package:omni_k/models/state_provider.dart';
-import 'package:text_to_speech/text_to_speech.dart';
-
+import 'package:flutter_tts/flutter_tts.dart';
 
 // ignore: must_be_immutable
 class Voca extends HookConsumerWidget {
@@ -38,11 +37,11 @@ class Voca extends HookConsumerWidget {
   }
 
   void wordSpeak(text) {
-    TextToSpeech tts = TextToSpeech();
+    FlutterTts tts = FlutterTts();
     tts.setVolume(1.0);
-    tts.setRate(1.0);
+    tts.setSpeechRate(1.0);
     tts.setPitch(1.0);
-    tts.setLanguage('ko-KR');
+    tts.setLanguage('ko');
     tts.speak(text);
   }
 
