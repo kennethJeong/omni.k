@@ -28,27 +28,27 @@ class OmniK extends HookConsumerWidget {
       child: Scaffold(
         extendBody: true,
         appBar: AppBar(
-            toolbarHeight: ref.watch(heightAppBar),
-            forceMaterialTransparency: true,
-            centerTitle: true,
-            iconTheme: const IconThemeData(color: Colors.deepPurpleAccent),
-            title: Text(
-              'OMNI.K',
-              style: TextStyle(
-                fontSize: 25,
-                color: Colors.deepPurple[200],
+          toolbarHeight: ref.watch(heightAppBar),
+          forceMaterialTransparency: true,
+          centerTitle: true,
+          iconTheme: const IconThemeData(color: Colors.deepPurpleAccent),
+          title: Text(
+            'OMNI.K',
+            style: TextStyle(
+              fontSize: 25,
+              color: Colors.deepPurple[200],
+            ),
+          ),
+          actions: [
+            Builder(
+              builder: (context) => IconButton(
+                icon: const Icon(
+                  BottomIconData.iconData_seeMore
+                ),
+                onPressed: () => Scaffold.of(context).openEndDrawer()
               ),
             ),
-            actions: [
-              Builder(
-                builder: (context) => IconButton(
-                  icon: const Icon(
-                    BottomIconData.iconData_seeMore
-                  ),
-                  onPressed: () => Scaffold.of(context).openEndDrawer()
-                ),
-              ),
-            ]
+          ]
         ),
         bottomNavigationBar: BottomBar(),
         drawerScrimColor: Colors.white.withOpacity(0),
